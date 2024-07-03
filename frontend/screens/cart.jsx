@@ -10,6 +10,8 @@ import {
 import Icon from "react-native-vector-icons/Ionicons";
 import { CartContext } from "../context/cartContext";
 import { useDarkMode } from "../context/darkmodeContext";
+import CustomButton from "../components/customButton";
+import { Alert } from "react-native";
 
 const CartScreen = () => {
   const {
@@ -20,6 +22,10 @@ const CartScreen = () => {
     totalAmount,
   } = useContext(CartContext);
   const { isDarkMode } = useDarkMode();
+
+  const handleEvent = () => {
+    Alert.alert("Order Placed", "Thank You for shopping");
+  };
 
   const renderCartItem = ({ item }) => (
     <View style={[styles.itemContainer, isDarkMode && styles.darkModeItem]}>
@@ -78,6 +84,7 @@ const CartScreen = () => {
             renderItem={renderCartItem}
             keyExtractor={(item) => item.id.toString()}
             contentContainerStyle={styles.listContent}
+            showsVerticalScrollIndicator={false}
           />
           <Text
             style={[
@@ -87,6 +94,7 @@ const CartScreen = () => {
           >
             Total Amount: ${parseFloat(totalAmount).toFixed(2)}
           </Text>
+          <CustomButton onPress={handleEvent} title="Place Order" />
         </>
       ) : (
         <Text style={[styles.emptyText, isDarkMode && styles.darkModeText]}>

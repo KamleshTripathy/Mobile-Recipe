@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#f5f5f5",
     paddingHorizontal: 20,
     paddingTop: 20,
   },
@@ -279,6 +279,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     marginBottom: 20,
     alignItems: "center",
+    borderRadius: 10,
   },
   recipeImage: {
     width: 80,

@@ -30,7 +30,9 @@ const FavoriteRecipesScreen = ({ navigation }) => {
 
   return (
     <View style={[styles.container, isDarkMode && styles.darkModeContainer]}>
-      <Text style={styles.title}>Your Favorite Recipes</Text>
+      <Text style={[styles.title, isDarkMode && styles.darkModetitle]}>
+        Your Favorite Recipes
+      </Text>
       <FlatList
         data={favoriteRecipes}
         renderItem={renderRecipe}
@@ -71,6 +73,9 @@ const styles = StyleSheet.create({
   },
   darkModeContainer: {
     backgroundColor: "#181818",
+  },
+  darkModetitle: {
+    color: "#fff",
   },
 });
 
