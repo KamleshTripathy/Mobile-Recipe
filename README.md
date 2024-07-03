@@ -5,37 +5,37 @@ Welcome to TastyByte, your go-to recipe companion! This React Native application
 ## SCREENSHOTS
 
 ### 1.Splash Screen
-![splashscreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/splashscreen.jpg)
+![splashscreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/splashscreen.jpg)
 
 
 ### 2.Landing Screen
-![landingscreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/landingscreen.jpg)
+![landingscreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/landingscreen.jpg)
 
 
 ### 3.Home Screen
-![homescreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/homescreen.jpg)
+![homescreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/homescreen.jpg)
 
 
 ### 4.Login Screen
-![loginscreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/loginscreen.jpg)
+![loginscreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/loginscreen.jpg)
 
 
 ### 5.Register Screen
-![registerscreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/registerscreen.jpg)
+![registerscreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/registerscreen.jpg)
 
 
 ### 6.All Recipe Screen
-![allrecipescreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/allrecipescreen.jpg)
+![allrecipescreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/allrecipescreen.jpg)
 
 
 ### 7.Profile Screen
-![profilescreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/profilescreen.jpg)
+![profilescreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/profilescreen.jpg)
 
 
 ### 8.Details Screen
-![detailsscreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/detailsscreen.jpg)
+![detailsscreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/detailsscreen.jpg)
 
 
 ### 9.Favorite Screen
-![favoritescreen](https://github.com/KamleshTripathy/Expo-Recipe/blob/main/frontend/screenshots/favoritescreen.jpg)
+![favoritescreen](https://github.com/KamleshTripathy/Mobile-Recipe/blob/main/frontend/screenshots/favoritescreen.jpg)
 
